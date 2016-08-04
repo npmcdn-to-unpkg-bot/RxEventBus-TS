@@ -1,0 +1,43 @@
+/node_modules/
+/typings/
+/dist
+
+# *** VS Code
+.vscode
+
+# *** IntelliJ
+*.iml
+*.ipr
+*.iws
+.idea/
+out/
+
+# *** OS X
+.DS_Store
+xcuserdata/
+*.pbxuser
+# Thumbnails
+._*
+
+# NodeJS
+node_modules
+npm-debug.log
+.node-gyp/
+
+
+# Other
+*.bat
+docs/
+.cache/
+.config/
+.checkstyle
+.fontconfig/
+.pmd
+.gitconfig
+.qws/
+.sonar/
+
+# TypeScript
+tsd-debug.log
+typings/**/*
+*.map

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+    <meta charset="UTF-8">
+    <title>RxJs</title>
+    <script src="https://npmcdn.com/systemjs@0.19.34/dist/system.js"></script>
+</head>
+<body>
+    
+<script>
+    System.config({
+        packages:{
+            "dist":{
+              "defaultExtension": "js",
+              "main": "main"  
+            },
+            "rxjs":{
+              "defaultExtension": "js"
+            }
+        },
+        map:{
+            "rxjs": "node_modules/rxjs",
+            "symbol-observable": "node_modules/rxjs/observable",
+        }
+    });
+
+    System.import("dist");
+</script>    
+
+</body>
+</html>

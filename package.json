@@ -1,0 +1,22 @@
+{
+  "name": "RxEventBus-TS",
+  "version": "1.0.0",
+  "description": "Typescript implementation of a simple Reactive Event Bus",
+  "main": "dist/main.js",
+  "dependencies": {
+    "rxjs": "^5.0.0-beta.10",
+    "systemjs": "^0.19.31",
+    "typings": "^1.3.2"
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "pwd"
+  },
+  "author": "",
+  "license": "ISC"
+}
